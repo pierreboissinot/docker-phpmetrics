@@ -1,8 +1,4 @@
-# Docker image for phpmetrics
-
-## Supported tags and respective `Dockerfile` links
-
-* [`2.8.1`, `latest`](https://github.com/pierreboissinot/docker-phpmetrics/blob/2.8.1/Dockerfile)
+Docker image for [phpmetrics](https://github.com/phpmetrics/PhpMetrics)
 
 ## Quick start
 
@@ -10,5 +6,5 @@
 docker run --rm \
     --user $(id -u):$(id -g) \
     --volume $PWD:/project \
-    pboissinot/phpmetrics[:tag] [<options>]
+    pboissinot/phpmetrics:master [<options>]
 ```
